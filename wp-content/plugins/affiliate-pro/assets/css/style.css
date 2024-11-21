@@ -1,0 +1,178 @@
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-wrapper .form-card {
+    width: 50%; /* Set form width to 50% */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Full-width form for mobile */
+@media (max-width: 768px) {
+    .form-wrapper .form-card {
+        width: 100%; /* Set form width to 100% */
+    }
+}
+
+/* Form heading */
+.form-wrapper h1 {
+    text-align: center;
+    color: white;
+    background-color: #0078ba;
+    padding: 15px;
+    margin-top: 0;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Section heading */
+.form-wrapper h2 {
+    background-color: #0078ba;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Form layout */
+.form-wrapper label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.form-wrapper input[type="text"],
+.form-wrapper input[type="email"],
+.form-wrapper input[type="tel"],
+.form-wrapper input[type="date"],
+.form-wrapper input[type="number"],
+.form-wrapper textarea,
+.form-wrapper select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-wrapper textarea {
+    resize: vertical;
+}
+
+/* Submit button */
+.form-wrapper button {
+    background-color: #0078ba;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.form-wrapper button:hover {
+    background-color: #45a049;
+}
+
+.form-wrapper input[type="checkbox"] {
+    margin-right: 10px;
+}
+/* Adjust the spacing between label and input */
+.form-wrapper label {
+    display: block;
+    margin-bottom: 5px; /* Reduce bottom margin */
+}
+
+.form-wrapper input[type="text"],
+.form-wrapper input[type="email"],
+.form-wrapper input[type="tel"],
+.form-wrapper input[type="date"],
+.form-wrapper input[type="number"],
+.form-wrapper textarea,
+.form-wrapper select {
+    margin-bottom: 10px; /* Reduce the bottom margin of inputs */
+}
+
+/* Style the submit button */
+.form-card .wpcf7 input[type="submit"] {
+    background-color: #0078ba; /* Button color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    width: 100%; /* Make the button full width */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Hover effect for the submit button */
+.form-wrapper .form-card .wpcf7 input[type="submit"]:hover {
+    background-color: #45a049; /* Change background on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Focus state for accessibility */
+.form-wrapper .form-card .wpcf7 input[type="submit"]:focus {
+    outline: 3px solid #45a049; /* Add a green outline on focus */
+    outline-offset: 2px;
+}
+
+.form-card .wpcf7-submit {
+    background-color: #2b4663 !important;
+    color: white !important;
+    padding: 10px 20px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    width: 100% !important;
+}
+
+/* Hover effect */
+.form-card .wpcf7-submit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05);
+}
+
+/* Focus effect */
+.form-card .wpcf7-submit:focus {
+    outline: 3px solid #0056b3;
+    outline-offset: 2px;
+}
+
+.form-wrapper {
+    /* Styles for the form-wrapper, if needed */
+}
+
+.form-card {
+    margin-bottom: 15px; /* Adjust space between different form fields */
+}
+
+.form-card label {
+    display: block;
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+.form-card input[type="date"] {
+    width: 100%; /* Full width of the container */
+    padding: 8px;
+}
+
+.wpcf7 form p label {
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 0px !important;
+}
+
+.form-card br {
+    display: none !important;
+}

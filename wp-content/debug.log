@@ -1,0 +1,114 @@
+[20-Nov-2024 07:08:33 UTC] PHP Deprecated:  Function wp_update_https_detection_errors is <strong>deprecated</strong> since version 6.4.0 with no alternative available. in D:\xampp\htdocs\logspoir\wp-includes\functions.php on line 6114
+[20-Nov-2024 08:11:39 UTC] Automatic updates starting...
+[20-Nov-2024 08:11:41 UTC]   Automatic plugin updates starting...
+[20-Nov-2024 08:11:41 UTC]   Automatic plugin updates complete.
+[20-Nov-2024 08:11:42 UTC] Automatic updates complete.
+[20-Nov-2024 09:03:00 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "rc_display_representative_earnings" not found or invalid function name in D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\logspoir\wp-admin\admin.php(259): do_action('affiliate-manag...')
+#3 {main}
+  thrown in D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php on line 324
+[20-Nov-2024 09:40:53 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "rc_display_representative_earnings" not found or invalid function name in D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\logspoir\wp-admin\admin.php(259): do_action('affiliate-manag...')
+#3 {main}
+  thrown in D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php on line 324
+[20-Nov-2024 09:41:44 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "rc_display_representative_earnings" not found or invalid function name in D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\logspoir\wp-admin\admin.php(259): do_action('affiliate-manag...')
+#3 {main}
+  thrown in D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php on line 324
+[20-Nov-2024 09:41:47 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "rc_display_representative_earnings" not found or invalid function name in D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\logspoir\wp-admin\admin.php(259): do_action('affiliate-manag...')
+#3 {main}
+  thrown in D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php on line 324
+[20-Nov-2024 09:43:19 UTC] PHP Warning:  Undefined variable $user_id in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 119
+[20-Nov-2024 09:44:20 UTC] PHP Warning:  Undefined variable $user_id in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 119
+[20-Nov-2024 09:54:32 UTC] PHP Warning:  Undefined variable $user_id in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 119
+[20-Nov-2024 10:09:34 UTC] PHP Warning:  Undefined variable $user_id in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 121
+[20-Nov-2024 10:10:15 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "rc_display_representative_earnings" not found or invalid function name in D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\logspoir\wp-admin\admin.php(259): do_action('affiliate-manag...')
+#3 {main}
+  thrown in D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php on line 324
+[21-Nov-2024 04:45:56 UTC] Automatic updates starting...
+[21-Nov-2024 04:45:57 UTC]   Automatic plugin updates starting...
+[21-Nov-2024 04:45:57 UTC]   Automatic plugin updates complete.
+[21-Nov-2024 04:45:57 UTC] Automatic updates complete.
+[21-Nov-2024 08:08:08 UTC] Automatic updates starting...
+[21-Nov-2024 08:08:09 UTC]   Automatic plugin updates starting...
+[21-Nov-2024 08:08:09 UTC]   Automatic plugin updates complete.
+[21-Nov-2024 08:08:10 UTC] Automatic updates complete.
+[21-Nov-2024 09:19:59 UTC] PHP Deprecated:  Function get_used_coupons is <strong>deprecated</strong> since version 3.7! Use WC_Abstract_Order::get_coupon_codes instead. in D:\xampp\htdocs\logspoir\wp-includes\functions.php on line 6114
+[21-Nov-2024 09:19:59 UTC] PHP Warning:  Attempt to read property "ID" on bool in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 223
+[21-Nov-2024 09:46:30 UTC] PHP Deprecated:  Function get_used_coupons is <strong>deprecated</strong> since version 3.7! Use WC_Abstract_Order::get_coupon_codes instead. in D:\xampp\htdocs\logspoir\wp-includes\functions.php on line 6114
+[21-Nov-2024 09:46:30 UTC] Order ID: 49
+[21-Nov-2024 09:46:30 UTC] Coupons Used: Array
+(
+    [0] => rep-9gbdakph
+)
+
+[21-Nov-2024 09:46:30 UTC] Representative ID: 
+[21-Nov-2024 09:49:27 UTC] Order ID: 48
+[21-Nov-2024 09:49:27 UTC] Coupons Used: Array
+(
+    [0] => rep-9gbdakph
+)
+
+[21-Nov-2024 09:49:27 UTC] No representative found for coupon: rep-9gbdakph
+[21-Nov-2024 09:52:52 UTC] Order ID: 51
+[21-Nov-2024 09:52:52 UTC] Coupons Used: Array
+(
+    [0] => rep-bmeqe3bi
+)
+
+[21-Nov-2024 09:52:52 UTC] No representative found for coupon: rep-bmeqe3bi
+[21-Nov-2024 10:01:15 UTC] Order ID: 52
+[21-Nov-2024 10:01:15 UTC] Coupons Used: Array
+(
+    [0] => rep-bmeqe3bi
+)
+
+[21-Nov-2024 10:01:15 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + float in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php:257
+Stack trace:
+#0 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(326): rc_update_representative_earnings(52)
+#1 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\logspoir\wp-content\plugins\woocommerce\includes\class-wc-order.php(411): do_action('woocommerce_ord...', 52, Object(Automattic\WooCommerce\Admin\Overrides\Order), Array)
+#4 D:\xampp\htdocs\logspoir\wp-content\plugins\woocommerce\includes\class-wc-order.php(253): WC_Order->status_transition()
+#5 D:\xampp\htdocs\logspoir\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(768): WC_Order->save()
+#6 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(326): WC_Meta_Box_Order_Data::save(52)
+#7 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\logspoir\wp-content\plugins\woocommerce\src\Internal\Admin\Orders\Edit.php(313): do_action('woocommerce_pro...', 52, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#10 D:\xampp\htdocs\logspoir\wp-content\plugins\woocommerce\src\Internal\Admin\Orders\Edit.php(153): Automattic\WooCommerce\Internal\Admin\Orders\Edit->handle_order_update()
+#11 D:\xampp\htdocs\logspoir\wp-content\plugins\woocommerce\src\Internal\Admin\Orders\PageController.php(350): Automattic\WooCommerce\Internal\Admin\Orders\Edit->setup(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#12 D:\xampp\htdocs\logspoir\wp-content\plugins\woocommerce\src\Internal\Admin\Orders\PageController.php(366): Automattic\WooCommerce\Internal\Admin\Orders\PageController->prepare_order_edit_form()
+#13 D:\xampp\htdocs\logspoir\wp-content\plugins\woocommerce\src\Internal\Admin\Orders\PageController.php(167): Automattic\WooCommerce\Internal\Admin\Orders\PageController->setup_action_edit_order()
+#14 [internal function]: Automattic\WooCommerce\Internal\Admin\Orders\PageController->handle_load_page_action('')
+#15 D:\xampp\htdocs\logspoir\wp-content\plugins\woocommerce\src\Internal\Traits\AccessiblePrivateMethods.php(158): call_user_func_array(Array, Array)
+#16 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Internal\Admin\Orders\PageController->__call('handle_load_pag...', Array)
+#17 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#18 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#19 D:\xampp\htdocs\logspoir\wp-admin\admin.php(237): do_action('load-woocommerc...')
+#20 {main}
+  thrown in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 257
+[21-Nov-2024 10:04:26 UTC] Order ID: 53
+[21-Nov-2024 10:04:26 UTC] Coupons Used: Array
+(
+    [0] => rep-bmeqe3bi
+)
+
+[21-Nov-2024 10:04:26 UTC] New Earnings for Representative ID 9: 159
+[21-Nov-2024 10:04:26 UTC] New Sales Count for Representative ID 9: 1

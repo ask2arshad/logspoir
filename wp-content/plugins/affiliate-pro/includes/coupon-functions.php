@@ -13,6 +13,7 @@ function create_representative_coupon($coupon_code, $user_id) {
     // $coupon->set_email_restrictions([get_userdata($user_id)->user_email]);
     // $coupon->set_usage_limit(1); // Limit coupon usage
     $coupon->set_date_expires(date('Y-m-d', strtotime('+1 year'))); // Expiry date
+    $coupon->update_meta_data('_representative_id', $user_id);
     $coupon->save();
     update_user_meta($user_id, 'representative_coupon_code', $coupon_code);
 }
