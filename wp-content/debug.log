@@ -112,3 +112,429 @@ Stack trace:
 
 [21-Nov-2024 10:04:26 UTC] New Earnings for Representative ID 9: 159
 [21-Nov-2024 10:04:26 UTC] New Sales Count for Representative ID 9: 1
+[21-Nov-2024 10:18:54 UTC] Order ID: 54
+[21-Nov-2024 10:18:54 UTC] Coupons Used: Array
+(
+    [0] => rep-bmeqe3bi
+)
+
+[21-Nov-2024 10:18:54 UTC] New Earnings for Representative ID 9: 238
+[21-Nov-2024 10:18:54 UTC] New Sales Count for Representative ID 9: 2
+[22-Nov-2024 00:14:40 UTC] Automatic updates starting...
+[22-Nov-2024 00:14:41 UTC]   Automatic plugin updates starting...
+[22-Nov-2024 00:14:41 UTC]   Automatic plugin updates complete.
+[22-Nov-2024 00:14:42 UTC] Automatic updates complete.
+[22-Nov-2024 01:24:52 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in D:\xampp\htdocs\logspoir\wp-includes\functions.php on line 6114
+[22-Nov-2024 10:20:40 UTC] Automatic updates starting...
+[22-Nov-2024 10:20:41 UTC]   Automatic plugin updates starting...
+[22-Nov-2024 10:20:41 UTC]   Automatic plugin updates complete.
+[22-Nov-2024 10:20:42 UTC] Automatic updates complete.
+[24-Nov-2024 05:14:21 UTC] Automatic updates starting...
+[24-Nov-2024 05:14:22 UTC]   Automatic plugin updates starting...
+[24-Nov-2024 05:14:22 UTC]   Automatic plugin updates complete.
+[24-Nov-2024 05:14:23 UTC] Automatic updates complete.
+[24-Nov-2024 05:28:08 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in D:\xampp\htdocs\logspoir\wp-includes\functions.php on line 6114
+[24-Nov-2024 06:10:13 UTC] WordPress database error Table 'logspoir.wp_representative_payment_requests' doesn't exist for query SHOW FULL COLUMNS FROM `wp_representative_payment_requests` made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_payment_request_form
+[24-Nov-2024 06:26:11 UTC] WordPress database error Unknown column 'user_id' in 'where clause' for query SELECT * FROM wp_representative_payment_requests WHERE user_id = 1 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, WP_REST_Posts_Controller->update_item, WP_REST_Posts_Controller->prepare_item_for_response, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_dashboard
+[24-Nov-2024 06:26:13 UTC] WordPress database error Unknown column 'user_id' in 'where clause' for query SELECT * FROM wp_representative_payment_requests WHERE user_id = 1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_dashboard
+[24-Nov-2024 06:27:08 UTC] WordPress database error Unknown column 'user_id' in 'where clause' for query SELECT * FROM wp_representative_payment_requests WHERE user_id = 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_dashboard
+[24-Nov-2024 06:27:13 UTC] WordPress database error Unknown column 'user_id' in 'where clause' for query SELECT * FROM wp_representative_payment_requests WHERE user_id = 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_dashboard
+[24-Nov-2024 06:27:17 UTC] WordPress database error Unknown column 'user_id' in 'where clause' for query SELECT * FROM wp_representative_payment_requests WHERE user_id = 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_dashboard
+[24-Nov-2024 06:27:56 UTC] WordPress database error Unknown column 'user_id' in 'where clause' for query SELECT * FROM wp_representative_payment_requests WHERE user_id = 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_dashboard
+[24-Nov-2024 06:28:12 UTC] WordPress database error Unknown column 'user_id' in 'where clause' for query SELECT * FROM wp_representative_payment_requests WHERE user_id = 1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_dashboard
+[24-Nov-2024 06:28:12 UTC] WordPress database error Unknown column 'user_id' in 'field list' for query INSERT INTO `wp_representative_payment_requests` (`user_id`, `amount`, `reason`, `date_submitted`, `status`) VALUES (1, '34', '343', '2024-11-24 06:28:12', 'Pending') made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_dashboard
+[24-Nov-2024 06:30:30 UTC] WordPress database error Unknown column 'user_id' in 'where clause' for query SELECT * FROM wp_representative_payment_requests WHERE user_id = 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_dashboard
+[24-Nov-2024 06:30:34 UTC] WordPress database error Unknown column 'user_id' in 'where clause' for query SELECT * FROM wp_representative_payment_requests WHERE user_id = 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_dashboard
+[24-Nov-2024 06:30:34 UTC] WordPress database error Unknown column 'status' in 'field list' for query INSERT INTO `wp_representative_payment_requests` (`email`, `amount`, `reason`, `date_submitted`, `status`) VALUES ('10', '345', 'sdfsf', '2024-11-24 06:30:34', 'Pending') made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_dashboard
+[24-Nov-2024 06:31:12 UTC] WordPress database error Unknown column 'user_id' in 'where clause' for query SELECT * FROM wp_representative_payment_requests WHERE user_id = 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_dashboard
+[24-Nov-2024 06:31:17 UTC] WordPress database error Unknown column 'user_id' in 'where clause' for query SELECT * FROM wp_representative_payment_requests WHERE user_id = 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_dashboard
+[24-Nov-2024 06:36:51 UTC] WordPress database error Unknown column 'user_id' in 'where clause' for query SELECT * FROM wp_representative_payment_requests WHERE user_id = 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_dashboard
+[24-Nov-2024 06:40:27 UTC] WordPress database error Unknown column 'user_email' in 'field list' for query INSERT INTO `wp_representative_payment_requests` (`user_id`, `user_email`, `amount`, `reason`, `payment_proof_url`, `date_submitted`, `status`) VALUES (10, 'arshad2@gmail.com', '343', 'sdsf', 'http://localhost/logspoir/wp-content/uploads/2024/11/certificate.jpg', '2024-11-24 06:40:27', 'Pending') made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_dashboard
+[24-Nov-2024 06:40:39 UTC] WordPress database error Unknown column 'user_email' in 'field list' for query INSERT INTO `wp_representative_payment_requests` (`user_id`, `user_email`, `amount`, `reason`, `payment_proof_url`, `date_submitted`, `status`) VALUES (10, 'arshad2@gmail.com', '343', 'dfsfd', 'http://localhost/logspoir/wp-content/uploads/2024/11/2147714935.jpg', '2024-11-24 06:40:39', 'Pending') made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, rc_representative_dashboard
+[24-Nov-2024 06:52:22 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:52:22 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:52:22 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:52:22 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:52:22 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:52:22 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:52:22 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:52:27 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:52:27 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:52:27 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:52:27 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:52:27 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:52:27 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:52:27 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:53:22 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:53:22 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:53:22 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:53:22 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:53:22 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:53:22 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 06:53:22 UTC] PHP Warning:  Undefined property: stdClass::$user_email in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 162
+[24-Nov-2024 07:09:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function generate_invoice_pdf(), 4 passed in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 677 and exactly 5 expected in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php:794
+Stack trace:
+#0 D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php(677): generate_invoice_pdf('arshad23', '32432', 'sdfs', 'arshad2@gmail.c...')
+#1 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(434): rc_representative_dashboard(Array, '', 'representative_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(repres...', 'do_shortcode_ta...', '[representative...')
+#4 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(324): do_shortcode('[representative...')
+#5 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(205): WP_Hook->apply_filters('[representative...', Array)
+#6 D:\xampp\htdocs\logspoir\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<!-- wp:paragra...')
+#7 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(537): render_block_core_post_content(Array, '<!-- wp:paragra...', Object(WP_Block))
+#8 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(517): WP_Block->render()
+#9 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2190): WP_Block->render()
+#10 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2242): render_block(Array)
+#11 D:\xampp\htdocs\logspoir\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#12 D:\xampp\htdocs\logspoir\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 D:\xampp\htdocs\logspoir\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\logspoir\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#15 D:\xampp\htdocs\logspoir\index.php(17): require('D:\\xampp\\htdocs...')
+#16 {main}
+  thrown in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 794
+[24-Nov-2024 07:09:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generate_invoice_pdf() in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php:677
+Stack trace:
+#0 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(434): rc_representative_dashboard(Array, '', 'representative_...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(repres...', 'do_shortcode_ta...', '[representative...')
+#3 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(324): do_shortcode('[representative...')
+#4 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(205): WP_Hook->apply_filters('[representative...', Array)
+#5 D:\xampp\htdocs\logspoir\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<!-- wp:paragra...')
+#6 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(537): render_block_core_post_content(Array, '<!-- wp:paragra...', Object(WP_Block))
+#7 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(517): WP_Block->render()
+#8 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2190): WP_Block->render()
+#9 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2242): render_block(Array)
+#10 D:\xampp\htdocs\logspoir\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#11 D:\xampp\htdocs\logspoir\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#12 D:\xampp\htdocs\logspoir\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\logspoir\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\logspoir\index.php(17): require('D:\\xampp\\htdocs...')
+#15 {main}
+  thrown in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 677
+[24-Nov-2024 07:11:06 UTC] PHP Warning:  require_once(D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro/vendor/autoload.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 794
+[24-Nov-2024 07:11:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro/vendor/autoload.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php:794
+Stack trace:
+#0 D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php(677): generate_invoice_pdf('arshad23', 'arshad2@gmail.c...', '343', '342423', 'http://localhos...')
+#1 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(434): rc_representative_dashboard(Array, '', 'representative_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(repres...', 'do_shortcode_ta...', '[representative...')
+#4 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(324): do_shortcode('[representative...')
+#5 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(205): WP_Hook->apply_filters('[representative...', Array)
+#6 D:\xampp\htdocs\logspoir\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<!-- wp:paragra...')
+#7 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(537): render_block_core_post_content(Array, '<!-- wp:paragra...', Object(WP_Block))
+#8 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(517): WP_Block->render()
+#9 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2190): WP_Block->render()
+#10 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2242): render_block(Array)
+#11 D:\xampp\htdocs\logspoir\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#12 D:\xampp\htdocs\logspoir\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 D:\xampp\htdocs\logspoir\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\logspoir\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#15 D:\xampp\htdocs\logspoir\index.php(17): require('D:\\xampp\\htdocs...')
+#16 {main}
+  thrown in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 794
+[24-Nov-2024 07:12:01 UTC] PHP Warning:  require_once(D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro/../../vendor/autoload.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 794
+[24-Nov-2024 07:12:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro/../../vendor/autoload.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php:794
+Stack trace:
+#0 D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php(677): generate_invoice_pdf('arshad23', 'arshad2@gmail.c...', '343', '342423', 'http://localhos...')
+#1 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(434): rc_representative_dashboard(Array, '', 'representative_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(repres...', 'do_shortcode_ta...', '[representative...')
+#4 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(324): do_shortcode('[representative...')
+#5 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(205): WP_Hook->apply_filters('[representative...', Array)
+#6 D:\xampp\htdocs\logspoir\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<!-- wp:paragra...')
+#7 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(537): render_block_core_post_content(Array, '<!-- wp:paragra...', Object(WP_Block))
+#8 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(517): WP_Block->render()
+#9 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2190): WP_Block->render()
+#10 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2242): render_block(Array)
+#11 D:\xampp\htdocs\logspoir\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#12 D:\xampp\htdocs\logspoir\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 D:\xampp\htdocs\logspoir\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\logspoir\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#15 D:\xampp\htdocs\logspoir\index.php(17): require('D:\\xampp\\htdocs...')
+#16 {main}
+  thrown in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 794
+[24-Nov-2024 07:12:27 UTC] PHP Warning:  require_once(D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro/../../vendor/autoload.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 794
+[24-Nov-2024 07:12:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro/../../vendor/autoload.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php:794
+Stack trace:
+#0 D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php(677): generate_invoice_pdf('arshad23', 'arshad2@gmail.c...', '343', '342423', 'http://localhos...')
+#1 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(434): rc_representative_dashboard(Array, '', 'representative_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(repres...', 'do_shortcode_ta...', '[representative...')
+#4 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(324): do_shortcode('[representative...')
+#5 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(205): WP_Hook->apply_filters('[representative...', Array)
+#6 D:\xampp\htdocs\logspoir\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<!-- wp:paragra...')
+#7 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(537): render_block_core_post_content(Array, '<!-- wp:paragra...', Object(WP_Block))
+#8 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(517): WP_Block->render()
+#9 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2190): WP_Block->render()
+#10 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2242): render_block(Array)
+#11 D:\xampp\htdocs\logspoir\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#12 D:\xampp\htdocs\logspoir\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 D:\xampp\htdocs\logspoir\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\logspoir\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#15 D:\xampp\htdocs\logspoir\index.php(17): require('D:\\xampp\\htdocs...')
+#16 {main}
+  thrown in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 794
+[24-Nov-2024 08:04:54 UTC] PHP Warning:  require_once(D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro/../../vendor/autoload.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 794
+[24-Nov-2024 08:04:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro/../../vendor/autoload.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php:794
+Stack trace:
+#0 D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php(677): generate_invoice_pdf('arshad23', 'arshad2@gmail.c...', '324', '344', 'http://localhos...')
+#1 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(434): rc_representative_dashboard(Array, '', 'representative_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(repres...', 'do_shortcode_ta...', '[representative...')
+#4 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(324): do_shortcode('[representative...')
+#5 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(205): WP_Hook->apply_filters('[representative...', Array)
+#6 D:\xampp\htdocs\logspoir\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<!-- wp:paragra...')
+#7 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(537): render_block_core_post_content(Array, '<!-- wp:paragra...', Object(WP_Block))
+#8 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(517): WP_Block->render()
+#9 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2190): WP_Block->render()
+#10 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2242): render_block(Array)
+#11 D:\xampp\htdocs\logspoir\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#12 D:\xampp\htdocs\logspoir\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 D:\xampp\htdocs\logspoir\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\logspoir\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#15 D:\xampp\htdocs\logspoir\index.php(17): require('D:\\xampp\\htdocs...')
+#16 {main}
+  thrown in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 794
+[24-Nov-2024 08:05:51 UTC] PHP Warning:  require_once(D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro/../../vendor/autoload.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 794
+[24-Nov-2024 08:05:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro/../../vendor/autoload.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php:794
+Stack trace:
+#0 D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php(677): generate_invoice_pdf('arshad23', 'arshad2@gmail.c...', '324', '344', 'http://localhos...')
+#1 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(434): rc_representative_dashboard(Array, '', 'representative_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(repres...', 'do_shortcode_ta...', '[representative...')
+#4 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(324): do_shortcode('[representative...')
+#5 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(205): WP_Hook->apply_filters('[representative...', Array)
+#6 D:\xampp\htdocs\logspoir\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<!-- wp:paragra...')
+#7 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(537): render_block_core_post_content(Array, '<!-- wp:paragra...', Object(WP_Block))
+#8 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(517): WP_Block->render()
+#9 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2190): WP_Block->render()
+#10 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2242): render_block(Array)
+#11 D:\xampp\htdocs\logspoir\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#12 D:\xampp\htdocs\logspoir\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 D:\xampp\htdocs\logspoir\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\logspoir\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#15 D:\xampp\htdocs\logspoir\index.php(17): require('D:\\xampp\\htdocs...')
+#16 {main}
+  thrown in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 794
+[24-Nov-2024 08:06:13 UTC] PHP Warning:  require_once(D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro/../../vendor/autoload.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 794
+[24-Nov-2024 08:06:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro/../../vendor/autoload.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php:794
+Stack trace:
+#0 D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php(677): generate_invoice_pdf('arshad23', 'arshad2@gmail.c...', '777', '777', 'http://localhos...')
+#1 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(434): rc_representative_dashboard(Array, '', 'representative_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(repres...', 'do_shortcode_ta...', '[representative...')
+#4 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(324): do_shortcode('[representative...')
+#5 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(205): WP_Hook->apply_filters('[representative...', Array)
+#6 D:\xampp\htdocs\logspoir\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<!-- wp:paragra...')
+#7 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(537): render_block_core_post_content(Array, '<!-- wp:paragra...', Object(WP_Block))
+#8 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(517): WP_Block->render()
+#9 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2190): WP_Block->render()
+#10 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2242): render_block(Array)
+#11 D:\xampp\htdocs\logspoir\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#12 D:\xampp\htdocs\logspoir\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 D:\xampp\htdocs\logspoir\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\logspoir\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#15 D:\xampp\htdocs\logspoir\index.php(17): require('D:\\xampp\\htdocs...')
+#16 {main}
+  thrown in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 794
+[24-Nov-2024 08:06:52 UTC] PHP Warning:  require_once(D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro/../../vendor/autoload.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 794
+[24-Nov-2024 08:06:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro/../../vendor/autoload.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php:794
+Stack trace:
+#0 D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php(677): generate_invoice_pdf('arshad23', 'arshad2@gmail.c...', '777', '777', 'http://localhos...')
+#1 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(434): rc_representative_dashboard(Array, '', 'representative_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 D:\xampp\htdocs\logspoir\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(repres...', 'do_shortcode_ta...', '[representative...')
+#4 D:\xampp\htdocs\logspoir\wp-includes\class-wp-hook.php(324): do_shortcode('[representative...')
+#5 D:\xampp\htdocs\logspoir\wp-includes\plugin.php(205): WP_Hook->apply_filters('[representative...', Array)
+#6 D:\xampp\htdocs\logspoir\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<!-- wp:paragra...')
+#7 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(537): render_block_core_post_content(Array, '<!-- wp:paragra...', Object(WP_Block))
+#8 D:\xampp\htdocs\logspoir\wp-includes\class-wp-block.php(517): WP_Block->render()
+#9 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2190): WP_Block->render()
+#10 D:\xampp\htdocs\logspoir\wp-includes\blocks.php(2242): render_block(Array)
+#11 D:\xampp\htdocs\logspoir\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#12 D:\xampp\htdocs\logspoir\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 D:\xampp\htdocs\logspoir\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\logspoir\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#15 D:\xampp\htdocs\logspoir\index.php(17): require('D:\\xampp\\htdocs...')
+#16 {main}
+  thrown in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 794
+[24-Nov-2024 08:07:48 UTC] Automatic updates starting...
+[24-Nov-2024 08:07:48 UTC]   Automatic plugin updates starting...
+[24-Nov-2024 08:07:48 UTC]   Automatic plugin updates complete.
+[24-Nov-2024 08:07:48 UTC] Automatic updates complete.
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:16:10 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:16:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:40 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:18:42 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:18:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467
+[24-Nov-2024 08:19:34 UTC] PHP Warning:  Undefined property: stdClass::$invoice_url in D:\xampp\htdocs\logspoir\wp-content\plugins\affiliate-pro\representative-registration.php on line 165
+[24-Nov-2024 08:19:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\logspoir\wp-includes\formatting.php on line 4467

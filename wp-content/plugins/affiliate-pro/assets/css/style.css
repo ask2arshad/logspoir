@@ -142,14 +142,44 @@
     transform: scale(1.05);
 }
 
+
+
+
+/* Style the submit button */
+.form-wrapper .form-card input[type="submit"] {
+    background-color: #2b4663 !important;
+    color: white !important;
+    padding: 10px 20px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    width: 100% !important;
+}
+
+/* Hover effect for the submit button */
+.form-wrapper .form-card input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05);
+}
+
+/* Focus effect for the submit button */
+.form-wrapper .form-card  input[type="submit"]:focus {
+    outline: none; /* Remove outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.8); /* Add a blue glow effect */
+}
+
+/* Disable the button (if needed) */
+.form-wrapper .form-card  input[type="submit"]:disabled {
+    background-color: #ccc; /* Grey background when disabled */
+    cursor: not-allowed; /* Change cursor */
+}
+
+
 /* Focus effect */
 .form-card .wpcf7-submit:focus {
     outline: 3px solid #0056b3;
     outline-offset: 2px;
-}
-
-.form-wrapper {
-    /* Styles for the form-wrapper, if needed */
 }
 
 .form-card {
